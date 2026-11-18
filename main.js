@@ -38,7 +38,15 @@ return (dias + " dias " + horas + " horas " + minutos + " minutos " + segundos +
 }
 
 
+function atualizaCronometro(){
+    for (let i=0; i< contadores.length; i++){
+        contadores{i}.textContent = calculaTempo(tempos[i]);
+    }
+}
 
+function comecaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro, 1000);
+}
 
-
-contadores[0].textContent = calculaTempo(tempoObjetivo1);
+comecaCronometro();
