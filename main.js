@@ -15,10 +15,10 @@ textos[i].classList.add("ativo");
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2026-12-18T00:00:00");
-const tempoObjetivo2 = new Date("2026-12-18T00:00:00");
-const tempoObjetivo3 = new Date("2026-12-18T00:00:00");
-const tempoObjetivo4 = new Date("2026-12-18T00:00:00");
+const tempoObjetivo1 = new Date("2026-12-11T00:00:00");
+const tempoObjetivo2 = new Date("2027-04-05T00:00:00");
+const tempoObjetivo3 = new Date("2027-11-28T00:00:00");
+const tempoObjetivo4 = new Date("2027-12-18T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 
